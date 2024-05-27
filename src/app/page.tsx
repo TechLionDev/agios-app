@@ -1,7 +1,11 @@
+"use client";
+
 function HomePage() {
   return (
     <>
-      <p>Hi there!</p>
+      <div className='flex flex-col p-6 items-center'>
+        <img src='/Header.svg' className='w-full' />
+      </div>
     </>
   );
 }

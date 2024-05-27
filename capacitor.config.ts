@@ -2,7 +2,7 @@ import type { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
   appId: "co.agios.App",
-  appName: "agios-app",
+  appName: "Agios",
   webDir: "out",
   bundledWebRuntime: false
 };
