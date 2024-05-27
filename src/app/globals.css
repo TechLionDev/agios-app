@@ -41,3 +41,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.swiper-slide {
+  @apply w-fit !important;
+}
