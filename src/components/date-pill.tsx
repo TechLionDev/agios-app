@@ -47,7 +47,6 @@ function DatePill({ data, setData }: any) {
           </div>
         </DialogContent>
       </Dialog>
-      {/* drawer */}
     </>
   );
 }

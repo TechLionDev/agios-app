@@ -1,5 +1,6 @@
 "use client";
 import DatePill from "@/components/date-pill";
+import Loading from "@/components/loading";
 import { useEffect, useState } from "react";
 function HomePage() {
   const [data, setData] = useState<any>({});
@@ -18,7 +19,7 @@ function HomePage() {
     })();
   }, []);
   if (loading) {
-    return;
+    return <Loading/>;
   }
   return (
     <>
